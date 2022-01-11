@@ -45,3 +45,12 @@ table {
 
 /* Custom CSS */
 /* Add Bacground Image and start Css */
+
+body {
+    background-image: url(../images/clouds_background.jpg);
+}
+figure img {
+	float: right;
+	width: 300px;
+	height: auto;
+}
