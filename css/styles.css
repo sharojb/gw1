@@ -1,4 +1,4 @@
-/* Reset Rule */
+/*CSS Reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,13 +44,189 @@ table {
 }
 
 /* Custom CSS */
-/* Add Bacground Image and start Css */
 
 body {
     background-image: url(../images/clouds_background.jpg);
+	font-family: 'Nanum Myeongjo', serif;
 }
+
+#container{
+    background-color: #0d312d;
+    width: 960px;
+    margin: 25px auto;
+}
+
+header{
+    height: 75px;
+    padding: 20px 0 20px;
+}
+
+header h1{
+    color: white;
+    font-size: 2.2em;
+    font-weight: bold;
+    width: 500px;
+    float: left;
+	font-family: 'Milonga', cursive;
+}
+
+nav{
+	color: white;
+    height: 40px;
+	margin: 50px 0;
+	padding-top: 10px;
+	background-color: rgb(189, 189, 189);
+	text-align: center;
+}
+
+nav details summary {
+    margin-bottom: 5px;
+}
+
+nav details ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 10px;
+}
+
+nav details ul li a {
+    text-decoration: none;
+    color:black;
+}
+
+.top{
+	margin-left: 30px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+section article{
+    background-color: #f1f1f1;
+	width: 680px;
+	height: 600px;
+    float: left;
+    padding: 30px 20px;
+}
+
+section aside{
+    background-color: rgb(189, 189, 189);
+    width: 200px;
+	height: 600px;
+    float: left;
+    padding: 30px 20px;
+}
+
+.harry{
+    font-size: 1.6em;
+    font-weight: 600;
+    padding-bottom: 10px;
+	color: #af8922;
+	border-bottom:2px solid #af8922;
+}
+
+.about{
+	font-size: 1.25em;
+    font-weight: 600;
+    padding: 10px 0 10px 0;
+	color:black;
+}
+
+.hedwig{
+	font-size: 1.25em;
+    font-weight: 600;
+    padding: 10px 0 10px 0;
+	color:black;
+	text-shadow: 2px 2px white;
+}
+
+.daniel1{
+	width: 250px;
+	margin: 50px 10px 5px;
+}
+
+.daniel2{
+	width: 250px;
+	margin: 5px 10px 5px;
+}
+
+.hedpic{
+	margin: 5px;
+	width: 180px;
+}
+
+section article figure{
+    float: right;
+	margin: 5px;
+}
+
+section figure{
+    margin: 20px 0 20px 15px;
+}
+
+main section article p, main aside p {
+    margin: 5px 0 ;
+	font-size: 0.9em;
+	line-height: 1.25;
+}
+
+figcaption {
+    text-align: center;
+    color: #4b2124;
+    font-style: italic;
+	margin-top: 10px;
+}
+
 figure img {
 	float: right;
 	width: 300px;
 	height: auto;
 }
+
+.quid{
+	position: absolute;
+    width: 200px;
+    top: 360px;
+    animation: fly 2s linear 4 alternate;
+}
+
+footer{
+    clear: both;
+    background-color: #4b2124;
+    height: 20px;
+    text-align: center;
+    padding: 15px;
+	font-style: italic;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Animation*/
+
+@keyframes fly {
+	25%{
+		left: -200px;
+	}
+	50%{
+		top: 100px;
+	}
+	100%{
+		left: 1150px;
+	}
+	}
