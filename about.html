@@ -1,0 +1,133 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5477549YWN"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-5477549YWN');
+        </script>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Sharolayn's Designs</title>
+        
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Over+the+Rainbow&display=swap" rel="stylesheet">
+
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/396d298c48.js" crossorigin="anonymous"></script>
+
+        <!--FAVicon-->
+        <link rel="shortcut icon" href="images/favicon/favicon.ico" type="img/ico" /> 
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles-rwd.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+                <h1><a href="index.html">Sharolayn</a></h1>
+                <nav class="nav1">
+                    <ul>
+                        <li><a href="index.html">My Work</a></li>
+                        <li><a href="about.html">Who I am</a></li>
+                    </ul>
+                </nav>
+            </header>
+        
+            <main>
+                <section>
+                    <article>
+                        <h2>This is me</h2>
+                        <figure>
+                            <img class="mepic" src="images/me.jpg" alt="mepic" title="Me and my pup-daughter Nucita">
+                            <figcaption>Nucita and I</figcaption>
+                        </figure>
+                        <summary>
+                            <p>We were born and raised in Venezuela. We have only been living in the United States for 3 years and this was one of the first Christmas I spent with my pup-daughter Nucita in the country!</p>
+                        </summary>
+                    </article>
+
+                    <!-- Form -->
+                    <aside>
+                        <div class="container-form">
+                            <h3 class=contactanalyze>Contact Me</h3>
+
+                            <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+                            
+                            <div class="first-name input-section">
+                                <label for="firstname" class="label_input_wrap">First Name:</label>
+                                <input type="text" name="req_firstname" id="firstname" placeholder="ex. Mary"/>
+                            </div>
+
+                            <div class="last-name input-section">
+                                <label for="lastname" class="label_input_wrap">Last Name:</label>
+                                <input type="text" name="req_lastname" id="lastname" placeholder="ex. Garcia"/>    
+                            </div>
+
+                            <div class="email input-section">
+                                <label for="email" class="label_input_wrap">Email:</label>
+                                <input type="email" name="req_email" id="email" placeholder="mgarcia@example.com"/>
+                            </div>
+
+                            <div class="telephone input-section">
+                                <label for="telephone" class="label_input_wrap">Telephone:</label>
+                                <input type="tel" name="req_telephone" id="telephone" placeholder="555-444-3333" />
+                                </div>
+
+                            <div class="datepicker input-section">
+                                <label for="birthday">When were you born?</label>
+                                <input type="date" name="req_birthday" id="birthday" />
+                            </div>
+
+                            <div class="comments input-section">
+                                <label for="comments" class="label_input_wrap com">Comments:</label>
+                                <textarea name="comments" id="comments" placeholder="Your Comment Goes Here" cols="35" rows="3"></textarea>
+                            </div>
+
+                            <div class="checkbox input-section">
+                                <h4 class="in">Interested in:</h4>
+                                <input type="checkbox" name="req_interest" value="design" id="design" /><label for="design"> Designs</label>
+                                <input type="checkbox" name="req_interest" value="psy" id="psy" /><label for="psy"> Psychotherapy</label>
+                                <input type="checkbox" name="req_interest" value="co" id="co" /><label for="co"> Work Together</label>
+                            </div>
+
+                            <div class="dropdown input-section">
+                                <label for="refer" class="label_input_wrap">How did you hear about me?</label>
+                                <select name="req_refer" id="refer">
+                                    <option value="reference">Reference</option>
+                                    <option value="sm">Social Media</option>
+                                    <option value="search">Google Search</option>
+                                </select>
+                            </div>
+
+                            <div class="reset">
+                                <input type="reset" value="Clear"/>
+                            </div>
+
+                            <div class="submit">
+                                <input type="submit" value="Send"/>
+                            </div>
+                            </form>
+                        </div>    
+                    </aside>
+                </section>
+            </main>
+
+            <footer> 
+                <p>Follow Me</p>
+                <p><a href="https://www.instagram.com/psycharte/?hl=en" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.facebook.com/Psychartes/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                </p>
+                <p class="website">Website by Sharolayn Jarque</p>
+              </footer>
+        </div>
+    </body>
+</html>
